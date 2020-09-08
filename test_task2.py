@@ -1,3 +1,5 @@
+#В задании было необходимо откомментировать данный код. Мой вариант.
+
 #Импортируем библиотеки
 import xml.etree.ElementTree as XmlElementTree
 import httplib2
