@@ -3,7 +3,6 @@
 #Возвращая строку true, если это валидное число, которое содержит только цифры с правильно расставленными разделителями и запятыми, а обратном случае возвращает строку false'''
 
 
-
 import re
 def StringChallenge(strArr):
      pat = re.compile(r'^[0-9]*[.,]{0,1}[0-9]*$')
@@ -18,4 +17,4 @@ def StringChallenge(strArr):
 
 a = input()
 
-print(StringChallenge(a)
+print(StringChallenge(a))
